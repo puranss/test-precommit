@@ -14,6 +14,12 @@ repos:
     rev: 7.0.0
     hooks:
     -   id: flake8
+
+-  repo: https://github.com/pre-commit/pre-commit-hooks
+   rev: v2.3.0
+   hooks:
+    - id: detect-private-key
+
 ci:
   autofix_prs: true
   autofix_commit_msg: '[pre-commit.ci] Fixing issues with pre-commit'
