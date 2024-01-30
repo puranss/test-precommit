@@ -19,11 +19,15 @@ repos:
    rev: v2.3.0
    hooks:
     - id: detect-private-key
+
 -   repo: https://github.com/Yelp/detect-secrets
     rev: v1.2.0
     hooks:
     -   id: detect-secrets
         args: ['audit', '.secrets.baseline']
+
+
+
 
 ci:
   autofix_prs: true
