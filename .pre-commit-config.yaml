@@ -19,6 +19,12 @@ repos:
    rev: v2.3.0
    hooks:
     - id: detect-private-key
+-  repo: https://github.com/Yelp/detect-secrets
+   rev:  v1.4.0
+   hooks:
+    - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+
 
 ci:
   autofix_prs: true
