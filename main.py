@@ -8,7 +8,7 @@ def print_hi(name):
     access_key = "AKIAZI2LEQWIDPAHWUC3"
     print(f"Hi, {name}")  # Press ⌘F8 to toggle the breakpoint.
     print(access_key)
-     # Press ⌘F8 to toggle the breakpoint.
+    # Press ⌘F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
