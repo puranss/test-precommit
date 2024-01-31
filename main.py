@@ -5,9 +5,9 @@
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    access_key = "AKIAZI2LEQWIDPAHWUC3"
+    
     print(f"Hi, {name}")  # Press ⌘F8 to toggle the breakpoint.
-    print(access_key)
+    
     # Press ⌘F8 to toggle the breakpoint.
 
 
